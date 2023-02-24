@@ -23,7 +23,7 @@
     <script src="js/modernizr.custom.js"></script>
   </head>
 
-  <body>
+  <body>   
     <!-- Loading animation -->
     <div class="preloader">
       <div class="preloader-animation">
@@ -112,6 +112,7 @@
                       <h3 class="home-page-description" style="color:white; font-size: 30px;"><strong>Frontend-developer</strong></h3>
                     </div>
                   </div>
+                  <center><button id="btn" onclick="audio.play()"><i class="pe-7s-icon pe-7s-music" style="font-size: 25px;"></i></button></center>
                 </div>
               </div>
             </section>
@@ -826,5 +827,9 @@
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+      const audio = new Audio();
+      audio.src = "music/music1.mp3";
+    </script>
   </body>
 </html>
